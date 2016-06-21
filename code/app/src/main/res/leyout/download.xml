@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_height="720px"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center_vertical"
+		android:background="@drawable/download_act_bacpic">
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="10dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:text="@string/downloading_title"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<ImageView
+		android:layout_height="10px"
+		android:layout_width="match_parent"
+		android:src="@drawable/card_shadow_end"
+		android:scaleType="fitXY"/>
+
+	<RelativeLayout
+		android:layout_height="10dp"
+		android:layout_width="wrap_content"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_height="wrap_content">
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="10dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="@string/downloading_about"/>
+
+	</LinearLayout>
+
+	<Button
+		style="@style/AppTheme"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="安装“update.apk”"
+		android:id="@+id/openFailbtn"/>
+
+</LinearLayout>
+
