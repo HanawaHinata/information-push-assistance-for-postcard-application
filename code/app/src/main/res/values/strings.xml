@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">生日贺卡信息推送辅助程序</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="icon">Please wait…</string>
+	<string name ="loading">正在检查服务器许可状态与更新</string>
+	<string name ="codehelp">输入身份码，开启贺卡</string>
+	<string name ="codetitle">生日贺卡，为你而来！</string>
+	<string name ="iknow">我同意《生日贺卡客户服务条款》</string>
+	<string name ="okbtn">确定</string>
+	<string name ="nobtn">取消</string>
+	<string name ="codeacttitle">请输入身份码</string>
+	<string name ="nocode">没有身份码？</string>
+	<string name ="dialog_big">请确认下载以下内容，这会耗费您大约%d的流量费用。</string>
+	<string name ="dialog_item_1">"生日贺卡"apk主程序(约9.28Mb)</string>
+	<string name ="dialog_item_2">"生日贺卡"主程序所需要的数据包文件。</string>
+	<string name ="dialog_item_3">授权程序所需要的加密文件程序</string>
+	<string name ="dialog">确认下载</string>
+	<string name ="downloading">正在下载……</string>
+	<string name ="uninstall_title">卸载</string>
+	<string name ="uninstall_okbtn">卸载</string>
+	<string name ="uninstall_nobtn">暂时保留</string>
+	<string name ="uninstall_text">"
+    为保证服务质量以及系统安全，我们建议您在使用生日贺卡服务结束后，及时卸载生日贺卡主程序及本辅助程序。
+	本程序即将执行卸载以下内容；
+	1、生日贺卡主程序；
+	2、视频及其他媒体数据包；
+	3、生日贺卡信息推送辅助程序。
+	您也可以选择暂时保留，供以后卸载。"</string>
+	<string name ="downloading_title">APP-PostCard-数据包.zip\n下载与解压缩完成</string>
+	<string name ="downloading_about">"数据包总计大小：213.56M 
+	系统检测到您并未安装生日贺卡主程序，请到以下目录安装生日贺卡主程序：
+	
+	“/mnt/sdcard/数据包/update.apk”
+	
+	或者直接轻触下方的“安装update.apk”按钮执行安装操作。
+	
+	如果存在疑问，请联系开发者。 
+	
+	由于数据包过大，我们建议您在使用完毕后删除以下目录的所有数据。其中包括：
+	“/mnt/sdcard/数据包”
+	"
+	</string>
+	<!--><string name="downloading_apkbtn">继续</string><-->
+	<string name="codeact_title">身份验证</string>
+	
+</resources>
