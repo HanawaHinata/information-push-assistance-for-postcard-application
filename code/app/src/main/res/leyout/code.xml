@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal">
+
+	<LinearLayout
+		android:layout_height="300dp"
+		android:layout_width="match_parent"
+		android:orientation="vertical"
+		android:gravity="center"
+		android:background="#00C6FF">
+
+		<ImageView
+			android:layout_height="150dp"
+			android:layout_width="150dp"
+			android:src="@drawable/main_icon"/>
+
+		<TextView
+			android:layout_height="54dp"
+			android:layout_width="wrap_content"
+			android:text="@string/codetitle"
+			android:gravity="center"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:inputType="number"
+		android:layout_width="wrap_content"
+		android:ems="10"
+		android:id="@+id/codeText"
+		android:hint="@string/codehelp"/>
+
+	<CheckBox
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/iknow"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="@string/okbtn"
+		android:id="@+id/button"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="@string/nocode"
+		android:textColor="#006CFF"
+		android:id="@+id/nocode"/>
+
+</LinearLayout>
+
